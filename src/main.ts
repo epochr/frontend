@@ -3,12 +3,12 @@ import App from './App.vue';
 import router from './router';
 import store from './store';
 import './registerServiceWorker';
-import { apolloProvider } from './vue-apollo';
+//import { apolloProvider } from './vue-apollo';
 
 Vue.config.productionTip = false;
 
 new Vue({
-  provide: apolloProvider.provide(),
+//provide: apolloProvider.provide(),
   router,
   store,
   render: h => h(App),
